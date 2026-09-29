@@ -274,6 +274,7 @@ enlazar a los términos de esta sección, pero no los definirá de nuevo.
 |Cuidador|Persona que podrá cuidar o atender a uno o varios pacientes|A3 s2|
 |Foro|Espacio común para compartir dudas y experiencias relacionadas con la convivencia con la enfermedad|A3 s4|
 |Coordinador|Único rol encargado de administrar y moderar el foro|A3 s4|
+|Paciente|Persona que sufre EII|A3 s2|
 
 
 
