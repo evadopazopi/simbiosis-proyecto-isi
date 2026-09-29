@@ -284,6 +284,7 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 |NFR-03|NFR-R (Restricciones presupuestarias y de gestión)|El desarrollo de la plataforma debe completarse en un plazo de 6 meses desde la fecha de inicio del proyecto|G|-|-|Vigente|
 |NFR-04|NFR-R (Restricciones presupuestarias y de gestión)|EL proyecto tiene un presupuesto limitado de 90.000€, que debe cubrir el desarrollo, diseño, pruebas e implementación inicial de la plataforma|G|-|-|Vigente|
 |NFR-05|NFR-Q (Integridad)|El sistema debe realizar al menos una copia de seguridad diaria de la información de salud y recetas|G|-|Se comprobarán mediante una prueba de restauración al menos una vez cada tres meses|Vigente|
+|NFR-06|NFR-Q (Seguridad)|El sistema deberá autenticar la cuenta de Google utilizando OAuth 2.0 u OpenID Connect sobre HTTPS y no se almacenará la contraseña|G|-|Se comprobará mediante una prueba de autenticación con una cuenta de prueba y la revisión de la configuración de la integración|Vigente|
 
 Categorías y atributos: 
 1) Requisitos de calidad (NFR-Q): Rendimiento, Usabilidad, Seguridad, Fiabilidad, Disponibilidad, Modificabilidad, Portabilidad, Eficiencia, Escalabilidad, Verificabilidad / Testabilidad, Robustez, Seguridad funcional (safety), Integridad, Reusabilidad, Instalabilidad.
