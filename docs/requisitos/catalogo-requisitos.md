@@ -281,7 +281,8 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 | NFR-07 |NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) |La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización.| G | -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
 |NFR-01|NFR-Q (Disponibilidad)|La plataforma alcanzará mínima del 99.5% en cada mes natural|G|-|Mediante comprobaciones externas cada 5 minutos|Vigente|
 |NFR-02|NFR-R (Despliegue)|La plataforma se desplegará en una infraestructura en la nube gestionada por un proveedor externo|G|-|-|Vigente|
-|NFR-03|NFR-R (Disponibilidad)|El desarrollo de la plataforma debe completarse en un plazo de 6 meses desde la fecha de inicio del proyecto|G|-|-|Vigente|
+|NFR-03|NFR-R (Restricciones presupuestarias y de gestión)|El desarrollo de la plataforma debe completarse en un plazo de 6 meses desde la fecha de inicio del proyecto|G|-|-|Vigente|
+|NFR-04|NFR-R (Restricciones presupuestarias y de gestión)|EL proyecto tiene un presupuesto limitado de 90.000€, que debe cubrir el desarrollo, diseño, pruebas e implementación inicial de la plataforma|G|-|-|Vigente|
 
 Categorías y atributos: 
 1) Requisitos de calidad (NFR-Q): Rendimiento, Usabilidad, Seguridad, Fiabilidad, Disponibilidad, Modificabilidad, Portabilidad, Eficiencia, Escalabilidad, Verificabilidad / Testabilidad, Robustez, Seguridad funcional (safety), Integridad, Reusabilidad, Instalabilidad.
