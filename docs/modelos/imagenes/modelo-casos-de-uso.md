@@ -2,10 +2,9 @@
 
 | Versión | Fecha | Estado |
 | --- | --- | --- |
-| 1.6 | 11/10/2026 | Revisado |
+| 1.7 | 13/10/2026 | Borrador |
 
-**Iteración de referencia:** E1. Este documento recoge la primera vista revisada del modelo. Será el punto de partida para ampliarlo en E2.
-
+**Iteración de referencia:** E2.
 **Plantilla base:** [Plantilla del modelo de casos de uso](plantilla-modelo-casos-de-uso.md). La plantilla se conserva sin cumplimentar. Los resultados del proyecto se incorporan a este documento.
 
 Los diagramas representan distintas vistas del mismo modelo. Los nombres de los actores y los identificadores de los casos de uso se mantienen entre iteraciones.
@@ -20,6 +19,7 @@ La gestión básica de cuentas se representa mediante cuatro objetivos del coord
 
 La verificación del correo, la aprobación de una cuenta por el coordinador y la autorización de una relación de cuidado son condiciones distintas. Verificar el correo no sustituye las otras dos condiciones.
 
+La vista E2 representa la gestión de datos de salud y recetas según las funcionalidades recogidas en el documento [plan de E2](../planificacion/plan-iteracion-e2.md).
 El modelo no completa los módulos de Gestión de usuarios y Guía interactiva. Quedan pendientes las siguientes funciones:
 
 - El registro, el acceso y la vinculación con Google.
@@ -110,6 +110,16 @@ La vista no utiliza relaciones de extensión ni generalizaciones entre casos de 
 El inicio de sesión no se incluye en todos los casos protegidos. La comprobación de la contraseña actual al eliminar la cuenta tampoco implica un nuevo inicio de sesión.
 
 La imagen se conserva en el repositorio con el nombre usado para esta referencia. Las revisiones de esta vista actualizarán el mismo archivo. Las nuevas vistas tendrán archivos distintos, de acuerdo con la [guía de modelos](README.md).
+
+### 4.2 Vista de recetas y datps de salud
+
+**Frontera del sistema:** Proyecto Simbiosis.
+
+**Alcance:** Publicación y validación de recteas acceso y actualización de datos de salud.
+
+![Vista de recetas y datos de salud de E2](imagenes/casos-de-uso-salud-recetas-e2.png)
+
+**Relaciones entre casos de uso.** 
 
 ## 5 Respaldo en los requisitos
 
